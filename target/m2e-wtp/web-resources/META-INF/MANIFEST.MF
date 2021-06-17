@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
+Built-By: Supradip
+Build-Jdk: 15.0.2
 Implementation-Title: training.com.training1
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Admin
 Implementation-Vendor-Id: training.com.training
-Build-Jdk: 1.8.0_131
 Created-By: Maven Integration for Eclipse
 
