@@ -15,7 +15,7 @@ phases:
       commands:
        - echo Build completed on 'Date'
        - zip -r JavaWebApp1.zip target/training.com.training1.war appspec.yml restart.sh
-       - aws s3 cp JavaWeb.zip s3://myjavabucket1			
+       - aws s3 cp JavaWebApp1.zip s3://myjavabucket1			
 artifacts:
    files:
       - target/training.com.training1.war
