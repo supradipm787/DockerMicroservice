@@ -9,11 +9,15 @@ phases:
          - echo Nothing to do in the pre_build phase      
    build:
       commands:
-         - echo Build started on 'Date'
-         - mvn install
+       - echo Build started on 'Date'
+       - mvn install
    post_build:                      
       commands:
-         - echo Build completed on 'Date'
+       - echo Build completed on 'Date'
+       - zip -r JavaWebApp1.zip target/training.com.training1.war appspec.yml restart.sh
+       - aws s3 cp JavaWeb.zip s3://myjavabucket1			
 artifacts:
    files:
       - target/training.com.training1.war
+      - appspec.yml
+      - restart.sh
