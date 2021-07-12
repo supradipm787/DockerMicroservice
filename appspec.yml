@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
  - source: target/training.com.training1.war
-   destination: /opt/bitnami/apache-tomcat/webapps 
+   destination: /usr/share/apache-tomcat-9.0.39/webapps 
 
 hooks:
  ApplicationStart:
