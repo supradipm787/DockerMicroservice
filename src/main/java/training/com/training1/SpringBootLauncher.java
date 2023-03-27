@@ -13,6 +13,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class SpringBootLauncher extends SpringBootServletInitializer  {
 	public static void main(String[] args) {
-	SpringApplication.run(TrainingController.class, args);
+	//SpringApplication.run(TrainingController.class, args);
+	SpringApplication.run(POAgileCoach.class, args);
 	}
 }

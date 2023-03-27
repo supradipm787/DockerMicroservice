@@ -1,8 +1,10 @@
 Manifest-Version: 1.0
 Built-By: Supradip
-Build-Jdk: 15.0.2
+Build-Jdk: 16.0.1
 Implementation-Title: training.com.training1
 Implementation-Version: 0.0.1-SNAPSHOT
 Implementation-Vendor-Id: training.com.training
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/training.com.training1
 Created-By: Maven Integration for Eclipse
 
